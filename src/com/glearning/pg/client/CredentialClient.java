@@ -60,7 +60,6 @@ public class CredentialClient {
 					
 				}while(pwdLen == 0);
 				
-				
 				employee.setPassword( CredentialService.generatePassword(pwdLen));
 				CredentialService.showCredentials(employee);
 			}
